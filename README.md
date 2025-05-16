@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Tashan VIP</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
     body {
-      background: linear-gradient(135deg, #111, #222);
-      color: gold;
-      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #0ff;
+      font-family: 'Orbitron', sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -19,31 +21,35 @@
       text-align: center;
       background: #000;
       padding: 40px;
-      border: 2px solid gold;
+      border: 2px solid #0ff;
       border-radius: 20px;
-      box-shadow: 0 0 30px gold;
+      box-shadow: 0 0 20px #0ff, 0 0 40px #0ff inset;
     }
     h1 {
       font-size: 2.5em;
       margin-bottom: 10px;
+      text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
     }
     p {
       font-size: 1.2em;
       margin: 10px 0;
+      text-shadow: 0 0 10px #0ff;
     }
     a {
       display: inline-block;
       margin: 10px;
       padding: 10px 20px;
-      border: 1px solid gold;
+      border: 1px solid #0ff;
       border-radius: 10px;
-      color: gold;
+      color: #0ff;
       text-decoration: none;
       transition: 0.3s;
+      box-shadow: 0 0 10px #0ff;
     }
     a:hover {
-      background-color: gold;
-      color: black;
+      background-color: #0ff;
+      color: #000;
+      box-shadow: 0 0 20px #0ff, 0 0 30px #0ff;
     }
   </style>
 </head>
